@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "parserOptions": {
+    "ecmaVersion": 6
+  }
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": ["error", { "skipUndeclared": true }],
+    "no-console": "off",
+    "import/no-cycle": "off",
+    "no-undef": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
